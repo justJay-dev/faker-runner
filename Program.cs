@@ -9,8 +9,9 @@ namespace FakerRunner
 			//FakerRunner.DataypeRunner.Run();
 			//FakerRunner.HackerRunner.Run();
 			//FakerRunner.DatabaseRunner.Run();
-			FakerRunner.CommerceRunner.Run();
-			FakerRunner.HelpersRunner.Run();
+			//FakerRunner.CommerceRunner.Run();
+			//FakerRunner.HelpersRunner.Run();
+			FakerRunner.CompanyRunner.Run();
 
 		}
 	}
