@@ -6,8 +6,9 @@ namespace FakerRunner
 	{
 		static void Main(string[] args)
 		{
-			FakerRunner.DataypeRunner.Run();
+			//FakerRunner.DataypeRunner.Run();
 			//FakerRunner.HackerRunner.Run();
+			FakerRunner.DatabaseRunner.Run();
 
 		}
 	}
