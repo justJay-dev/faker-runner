@@ -11,7 +11,8 @@ namespace FakerRunner
 			//FakerRunner.DatabaseRunner.Run();
 			//FakerRunner.CommerceRunner.Run();
 			//FakerRunner.HelpersRunner.Run();
-			FakerRunner.CompanyRunner.Run();
+			//FakerRunner.CompanyRunner.Run();
+			FakerRunner.NamesRunner.Run();
 
 		}
 	}
