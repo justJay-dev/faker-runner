@@ -23,6 +23,9 @@ namespace FakerRunner
 			Console.WriteLine("BS Buzz--> " + Faker.Company.BSBuzz());
 			Console.WriteLine("BS Noun--> " + Faker.Company.BSNoun());
 			Console.WriteLine("BS--> " + Faker.Company.BS());
+			Console.WriteLine("Company Name DEFAULT--> " + Faker.Company.CompanyName());
+			Console.WriteLine("Company Name 1--> " + Faker.Company.CompanyName(1));
+			Console.WriteLine("Company Name 2--> " + Faker.Company.CompanyName(2));
 			Console.WriteLine("<--/ COMPANY-->");
 			return;
 		}
