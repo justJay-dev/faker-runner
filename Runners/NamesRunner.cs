@@ -22,6 +22,10 @@ namespace FakerRunner
 			Console.WriteLine("Prefix--> " + Faker.Name.Prefix());
 			Console.WriteLine("Prefix MASC--> " + Faker.Name.Prefix(0));
 			Console.WriteLine("Prefix FEM--> " + Faker.Name.Prefix(1));
+			Console.WriteLine("Suffix --> " + Faker.Name.Suffix());
+			Console.WriteLine("Job Descriptor--> " + Faker.Name.JobDescriptor());
+			Console.WriteLine("Job Type--> " + Faker.Name.JobType());
+			Console.WriteLine("Job Area--> " + Faker.Name.JobArea());
 			Console.WriteLine("<--/ NAMES-->");
 			return;
 		}
