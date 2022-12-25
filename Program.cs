@@ -4,9 +4,9 @@ namespace FakerRunner
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            FakerRunner.DataypeRunner.Run();
+            //FakerRunner.DataypeRunner.Run();
             //FakerRunner.HackerRunner.Run();
             //FakerRunner.DatabaseRunner.Run();
             //FakerRunner.CommerceRunner.Run();
@@ -14,7 +14,7 @@ namespace FakerRunner
             //FakerRunner.CompanyRunner.Run();
             //FakerRunner.NamesRunner.Run();
             //FakerRunner.DateRunner.Run();
-            //FakerRunner.FinanceRunner.Run();
+            FakerRunner.FinanceRunner.Run();
             //FakerRunner.InternetRunner.Run();
 
         }

@@ -33,7 +33,7 @@ namespace FakerRunner
             }
             Console.WriteLine("<-- RANDOM INT ARRAY OF 10 -->");
             var intArray = Faker.Datatype.Array("int", 10);
-            Console.WriteLine(intArray[0]);
+            //Console.WriteLine(intArray[0]);
             foreach (var item in intArray)
             {
                 Console.WriteLine(item.GetType());
